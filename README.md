@@ -16,28 +16,19 @@ Node.js and npm installed on your machine.
 Installation
 Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/express-openai-gpt4.git
+git clone https://github.com/eddiemadrigal/express-openai-gpt4.git
 Navigate to the project directory:
 
-bash
-Copy code
 cd express-openai-gpt4
 Install dependencies:
 
-bash
-Copy code
 npm install
 Create a .env file in the root directory and add your OpenAI API key:
 
 makefile
-Copy code
 OPENAI_API_KEY=your_openai_api_key_here
 Start the server:
 
-bash
-Copy code
 npm start
 The server will start and listen on port 3001.
 
